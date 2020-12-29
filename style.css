@@ -160,6 +160,32 @@ form label {
     margin-bottom: 20px;
     margin-left: 20px;
   }
+
+  .project-wrapper {
+    margin: 15px;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+
+  .img-column {
+    height: 100px;
+  }
+  
+  .desc-column {
+    height: 100px;
+  }
   
   @media all and (min-width: 200px) {
      header {

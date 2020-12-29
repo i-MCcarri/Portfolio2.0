@@ -176,7 +176,7 @@ form label {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 325px;
+    width: 315px;
     margin: 20px 0;
   }
   
@@ -189,11 +189,11 @@ form label {
 
   .img-column {
     height: 250px;
-    width: 125px;
+    width: 115px;
   }
 
   .img-column img {
-      height: 100%;
+      height: 95%;
   }
   
   .desc-column {
@@ -205,6 +205,14 @@ form label {
       text-decoration: none;
   }
   
+  @media only screen and (max-width: 400px) {
+    .desc-column {
+        height: 300px;
+        width: 150px;
+      }
+  }
+
+
   @media all and (min-width: 200px) {
      header {
         font-size: 42px;

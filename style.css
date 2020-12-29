@@ -32,7 +32,7 @@ header {
   }
   
   header nav ul li a {
-     color: #545677;
+     color: #FFFFFF;
      /* nav font color */
      font-family: 'Montserrat', sans-serif;
      /* nav & ul font style */
@@ -48,7 +48,7 @@ header {
   /* --  Photo -- */
 header h1 {
 	font-family: 'Playfair Display', serif;
-	color: #545677;
+	color: #babdf7;
 	margin: 0px;
     padding-top: 24px;
     /* nav font size */
@@ -164,12 +164,20 @@ form label {
   .project-wrapper {
     margin: 15px;
   }
-  
-  .row {
+
+  .outer-row{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 325px;
+    margin: 20px 0;
   }
   
   .column {
@@ -180,11 +188,21 @@ form label {
   }
 
   .img-column {
-    height: 100px;
+    height: 250px;
+    width: 125px;
+  }
+
+  .img-column img {
+      height: 100%;
   }
   
   .desc-column {
-    height: 100px;
+    height: 250px;
+    width: 200px;
+  }
+
+  .title-link {
+      text-decoration: none;
   }
   
   @media all and (min-width: 200px) {

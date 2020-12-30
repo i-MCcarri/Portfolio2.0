@@ -170,13 +170,7 @@ form label {
     margin: 15px;
   }
 
-  /* .contacts-list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-left: -60px;
-  } */
+  
 
   .outer-row{
     display: flex;
@@ -193,12 +187,23 @@ form label {
     margin: 20px 0;
   }
 
-  /* .contact-list {
+  .contacts-list {
     display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
-  } */
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: -30px;
+  } 
+
+  .contact-list {
+    flex: 1 0 18%;
+    margin: 3px;
+    display: flex;
+    /* flex-direction: column;
+    flex-basis: 100%; */
+    align-items: center;
+    justify-content: center;
+  } 
   
   .column {
     display: flex;
@@ -249,6 +254,10 @@ form label {
     .desc-column {
         height: 250px;
         width: 90%;
+    }
+
+    .contact-list {
+      flex: 1 0 30%;
     }
   }
 

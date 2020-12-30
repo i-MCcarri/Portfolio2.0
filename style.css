@@ -13,10 +13,10 @@ header {
   }
 
   header h1 {
-  color: #fff;
-  text-align: center;
-  margin: 0;
-  padding-top: 20px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
   }
   
   header nav {
@@ -50,9 +50,9 @@ header h1 {
 	font-family: 'Playfair Display', serif;
 	color: #babdf7;
 	margin: 0px;
-    padding-top: 24px;
+    padding-top: 21px;
     /* nav font size */
-	font-size: 22px;
+	font-size: 21px;
 	text-align:center;
 }
   /* --  Text  -- */
@@ -61,7 +61,7 @@ header h2 {
 	color: #fff;
 	margin: 0px;
 	padding-top: 16px;
-	font-size: 22px;
+	font-size: 21px;
 	text-align: center;
 }
 
@@ -87,7 +87,7 @@ h1, h2 {
     width: auto;
 }
 .gap-md {
-    height: 100px;
+    height: 20px;
     width: auto;
 }
 .gap-lg {
@@ -106,18 +106,19 @@ h1, h2 {
     background-position: top;
     background-position-y: -110px;
     background-size: 90%;
-    text-align:center;
+    height: 400px;
+    text-align: center;
 }
 
 .hero h1 {
-	font-size: 60px;
+	font-size: 30px;
 	color: white;
 	text-shadow: 0 0 10px #000;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 .hero h2 {
-	font-size: 20px;
+	font-size: 18px;
 	color: white;
 	background: #C17F54;
 	display:inline;
@@ -210,6 +211,26 @@ form label {
         height: 300px;
         width: 150px;
       }
+
+    .hero {
+        background-position-y: -70px;
+        height: 250px;
+    }
+
+    .gap-md {
+        height: 70px;
+        width: auto;
+    }
+
+    .img-column {
+        height: 550px;
+        width: 300px;
+    }
+
+    .desc-column {
+        height: 250px;
+        width: 90%;
+    }
   }
 
 

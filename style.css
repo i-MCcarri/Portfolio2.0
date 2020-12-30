@@ -65,6 +65,10 @@ header h2 {
 	text-align: center;
 }
 
+.contact-list {
+    text-decoration: none;
+    list-style: none;
+}
 
 h1, h2 {
 	color: #000;
@@ -166,6 +170,14 @@ form label {
     margin: 15px;
   }
 
+  /* .contacts-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: -60px;
+  } */
+
   .outer-row{
     display: flex;
     flex-direction: row;
@@ -180,6 +192,13 @@ form label {
     width: 315px;
     margin: 20px 0;
   }
+
+  /* .contact-list {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  } */
   
   .column {
     display: flex;

@@ -14,6 +14,7 @@ header {
 
   header h1 {
     color: #fff;
+    background-color: transparent;
     text-align: center;
     margin: 0;
     padding-top: 20px;
@@ -124,7 +125,7 @@ h1, h2 {
 .hero h2 {
 	font-size: 18px;
 	color: white;
-	background: #C17F54;
+	background: #7F4724;
 	display:inline;
     padding: 3px 10px;
     border-radius: 8px;
